@@ -18,8 +18,9 @@ footer {
 #respostas .glyphicon-user {font-size: 2em}
 #respostas .glyphicon-star {color:#ff9800;}
 #respostas .glyphicon-star-empty {color:#b3b3b3;}
-#respostas #comments .col-md-4 {height: 100px; padding:10px 3px;overflow:hidden;}
-#respostas #comments p {height: 80px;text-overflow: ellipsis;overflow:hidden;}
+#respostas #comments .col-md-12 {min-height: 30px; padding:10px 3px;overflow:hidden;}
+#respostas #comments div:not(:first-child){border-top:1px dashed #d2d2d2;}
+#respostas #comments p {padding:5px}
 
 footer img {width:200px;opacity: 0.4}
 .radio .glyphicon-star {color:#ffeb3b;}
