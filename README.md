@@ -1,7 +1,7 @@
 # DesafioComentto - Abril / 2016
 Repositório criado para o Desafio Comentto 2016
 
-O desafio consiste tem o objetivo de testar o candidato frente a aspectos de qualidade do código escrito pelo candidato, criatividade para a solução do problema proposto e noções de design de interfaces. E ele consiste em desenvolver uma página web para realizar a seguinte pesquisa, contendo duas perguntas:
+O desafio tem o objetivo de testar o candidato frente a aspectos de qualidade do código escrito pelo candidato, criatividade para a solução do problema proposto e noções de design de interfaces. E ele consiste em desenvolver uma página web para realizar a seguinte pesquisa, contendo duas perguntas:
 
 - Pergunta 1: De forma geral, como você avalia a qualidade dos nossos serviços?
 - Pergunta 2: Gostaria de contribuir com alguma sugestão? `<textarea>`
@@ -30,8 +30,7 @@ Faça o download dos arquivos contidos neste repositório e salve-os no seu comp
 - Após abrir o site (index.html) via browser, selecione uma opção de avaliação da qualidade dos serviços prestados pela Comentto.
 - Caso tenha alguma sugestão que gostaria de contribuir com a Comentto, escreva no campo de texto, logo abaixo dos marcadores de avaliação.
 - Clique no botão 'enviar'
-- Sua resposta será armazenada in-memory, mas há um delay de 1 segundo para fins de simular uma requisição AJAX.
-
+- Sua resposta será armazenada in-memory, mas há um delay de 1 segundo para simular uma requisição AJAX.
 - Todas as respostas enviadas serão mostradas logo abaixo do formulário de envio da avaliação.
 
 
