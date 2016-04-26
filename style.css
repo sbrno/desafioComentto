@@ -14,20 +14,12 @@ footer {
 	background:#f2f2f2;
 }
 
-#myDIV {
-	width: 100px;
-	height: 100px;
-    overflow:hidden;
-    text-overflow:ellipsis;
-}
-
 #respostas {margin-top:10px;border-top: 1px dashed #ccc; background: #f2f2f2;height:auto;min-height: 200px;padding:30px 0;}
 #respostas .glyphicon-user {font-size: 2em}
 #respostas .glyphicon-star {color:#ff9800;}
 #respostas .glyphicon-star-empty {color:#b3b3b3;}
 #respostas #comments .col-md-4 {height: 100px; padding:10px 3px;overflow:hidden;}
-#respostas #comments p {max-height: 80px;text-overflow: ellipsis;}
-
+#respostas #comments p {height: 80px;text-overflow: ellipsis;overflow:hidden;}
 
 footer img {width:200px;opacity: 0.4}
 .radio .glyphicon-star {color:#ffeb3b;}
