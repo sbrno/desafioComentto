@@ -19,7 +19,7 @@ O site/solução é responsivo. Isso quer dizer que você pode acessar de difere
 
 # Instalação
 
-Faça o download dos arquivos contidos neste repositório e salve-os no seu computador.
+Faça o download dos arquivos contidos neste repositório e salve-os no seu computador (https://github.com/sbrno/desafioComentto/archive/master.zip)
 
 - Para acessar o site/solução do desafio proposto localmente, primeiramente, você terá que ter um servidor local (XAMPP, WAMP, APACHE) ou outro similar. Depois salve os arquivos contidos neste repositório na pasta, geralmente definida como, htdocs, e acesse o arquivo index.html via browser (navegador).
 
