@@ -1,0 +1,36 @@
+body,html {height:100%;padding:0;margin:0;}
+.wrapper {min-height: 100%;position:relative;}
+header {padding:50px;position: relative}
+#conteudo {padding:20px 15px 30px 15px;min-height:500px;position:relative;overflow:visible;}
+legend {margin:25px 0;}
+footer {
+	border-top:1px solid #d2d2d2;
+	width:100%;
+	height:70px;
+	padding:15px;
+	position:relative;
+	bottom:0;
+	left:0;	
+	background:#f2f2f2;
+}
+
+#myDIV {
+	width: 100px;
+	height: 100px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+#respostas {margin-top:10px;border-top: 1px dashed #ccc; background: #f2f2f2;height:auto;min-height: 200px;padding:30px 0;}
+#respostas .glyphicon-user {font-size: 2em}
+#respostas .glyphicon-star {color:#ff9800;}
+#respostas .glyphicon-star-empty {color:#b3b3b3;}
+#respostas #comments .col-md-4 {height: 100px; padding:10px 3px;overflow:hidden;}
+#respostas #comments p {max-height: 80px;text-overflow: ellipsis;}
+
+
+footer img {width:200px;opacity: 0.4}
+.radio .glyphicon-star {color:#ffeb3b;}
+.radio .glyphicon-star-empty {color:#ddd;}
+.invertColor {-webkit-filter: invert(100%); filter: invert(100%);}
+.bgAzulMarca {background:rgb(71, 174, 222)};

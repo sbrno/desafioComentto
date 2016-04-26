@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<title>Desafio Comentto 2016 - Estevão Alves</title>
+
+	<meta charset="UTF-8">
+	
+	<!-- for Google -->
+	<meta name="description" content="Website desenvolvido por Estevão Alves para o Desafio Comentto 2016" />
+	<meta name="keywords" content="desafio, commentto, abril" />
+	<meta name="author" content="@estevaosoberano" />
+	<meta name="copyright" content="Desafio Commentto - Estevao Alves" />
+	<meta name="application-name" content="Desafio Comentto" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+</head>
+<body>
+	
+	<div class="wrapper">
+
+	<header class="container-fluid bgAzulMarca">
+		<div class="container">
+			<img src="logo.png" title="Comentto - Pesquisas de opinião" class="pull-left img-responsive" alt="Logo Comentto">
+		</div>
+	</header>
+
+	<section id="conteudo" class="container">
+		<div class="col-md-12">
+			<form action="#" class="form">
+
+				<legend>De forma geral, como você avalia a qualidade dos nossos serviços?</legend>
+
+				<div class="radio">
+					<label title="Avaliar o atendimento como ótimo">
+						<input type="radio" checked="checked" name="avaliacao" required value="4"> 
+						<i class="glyphicon glyphicon-star"></i>
+						<i class="glyphicon glyphicon-star"></i>
+						<i class="glyphicon glyphicon-star"></i>
+						<i class="glyphicon glyphicon-star"></i>
+						Ótimo
+					</label>
+				</div>
+				<div class="radio">
+					<label title="Avaliar o atendimento como bom">
+						<input type="radio" name="avaliacao" required value="3"> 
+						<i class="glyphicon glyphicon-star"></i>
+						<i class="glyphicon glyphicon-star"></i>
+						<i class="glyphicon glyphicon-star"></i>
+						<i class="glyphicon glyphicon-star-empty"></i>
+						Bom
+					</label>
+				</div>
+				<div class="radio">
+					<label title="Avaliar o atendimento como regular">
+						<input type="radio" name="avaliacao" required value="2"> 
+						<i class="glyphicon glyphicon-star"></i>
+						<i class="glyphicon glyphicon-star"></i>
+						<i class="glyphicon glyphicon-star-empty"></i>
+						<i class="glyphicon glyphicon-star-empty"></i>
+						Regular
+					</label>
+				</div>
+				<div class="radio">
+					<label title="Avaliar o atendimento como ruim">
+						<input type="radio" name="avaliacao" required value="1"> 
+						<i class="glyphicon glyphicon-star"></i>
+						<i class="glyphicon glyphicon-star-empty"></i>
+						<i class="glyphicon glyphicon-star-empty"></i>
+						<i class="glyphicon glyphicon-star-empty"></i>
+						Ruim
+					</label>
+				</div>
+
+				<legend>Gostaria de contribuir com alguma sugestão?</legend>
+
+				<textarea id="sugestao" name="sugestao" class="form-control" rows="3" placeholder="Sua sugestão é muito importante para nós..."></textarea>
+
+				<hr>
+
+				<button class="btn btn-success" title="Clique aqui para enviar o formulário">
+					<i class="glyphicon glyphicon-send"></i> 
+					<span id="botaoTitle">Enviar</span>
+				</button>
+
+			</form>
+		</div>
+	</section>
+
+	<section id="respostas">
+		<div id="comments" class="container">
+		</div>
+		<div class="clearfix"></div>
+	</section>
+
+	<footer class="text-center">
+		<img src="logo.png" title="Comentto - Pesquisas de opinião" alt="Logo Comentto" class="invertColor">
+	</footer>
+
+	</div>
+
+</body>
+</html>
