@@ -1,6 +1,6 @@
 function addComment(star,comment)
 {
-	var html = '<div class="col-md-4 col-sm-6 text-left">';
+	var html = '<div class="col-md-12 text-left">';
 
 	if(!$.isNumeric(star))
 		return false;
