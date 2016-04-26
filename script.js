@@ -25,9 +25,11 @@ $(document).ready(function(){
 	var botao = $('button');
 	var botaoTitle = $('#botaoTitle');
 
-	$('form').submit(function(){
+	$('button').not('[disabled]').click(function(e){
+		
+		e.preventDefault();
 
-		botao.addClass('disabled');
+		botao.prop('disabled', true);
 		botaoTitle.html('Enviando...');
 
 		var avaliacao = $('[name="avaliacao"]:checked');
@@ -38,11 +40,11 @@ $(document).ready(function(){
 
 		//simulando um ajax
 		setTimeout(function(){ 
-			botao.removeClass('disabled');
 			botaoTitle.html('Enviar');
 			addComment(avaliacao.val(),sugestao.val());
 			$('input[name=avaliacao][value="4"]').prop('checked', 'checked');
 			sugestao.val(null);
+			botao.prop('disabled', false);
 		}, 1000);
 
 		return false;
